@@ -3,12 +3,41 @@
 Automated testing framework for Automation Exercise Website. This suite utilizes playwrigt JavaScript testing framework seeks fake data from faker library, following the Page Object Model (POM) design pattern.
 
 ## Table of Contents
+- [Framework Selection](#framework-selection)
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
 - [Framework Structure](#framework-structure)
 
+
+## Framework Selection
+Framework Selection: Playwright
+
+After careful consideration, I recommend selecting Playwright as the automation framework for our project. Here's a brief justification for my choice:
+
+Ease of Use:
+
+Playwright provides a simple and intuitive API, making it easy to write automated tests. Its syntax is concise and readable, allowing developers to focus on the test logic rather than the underlying implementation.
+
+Community Support:
+
+Playwright has a rapidly growing community, with a strong presence on GitHub, Stack Overflow, and other online platforms. This ensures that there are plenty of resources available for learning and troubleshooting.
+
+Testing Features:
+
+Playwright offers a wide range of testing features, including:
+
+1. Multi-browser support: Playwright supports automated testing on multiple browsers, including Chromium, Firefox, and WebKit.
+2. Fast and reliable: Playwright is designed for speed and reliability, making it ideal for large-scale automated testing.
+3. Built-in waiting mechanisms: Playwright provides built-in waiting mechanisms, such as waitForSelector and waitForFunction, which simplify the process of waiting for elements to appear or become interactive.
+4. Network traffic manipulation: Playwright allows you to manipulate network traffic, enabling you to test scenarios that involve network failures or slow connections.
+5. Visual testing: Playwright provides built-in support for visual testing, allowing you to verify the visual appearance of your application.
+
+Additional Benefits:
+
+1. Cross-platform compatibility: Playwright tests can run on multiple platforms, including Windows, macOS, and Linux.
+2. Integration with popular testing frameworks: Playwright can be used with popular testing frameworks like Jest, Mocha, and Pytest.
 
 ## Architecture
 
